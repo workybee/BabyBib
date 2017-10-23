@@ -258,7 +258,7 @@ class BabyBib extends \Freesewing\Patterns\Core\Pattern
         $p = $this->parts['bib'];
 
         // Bias binding line
-        $p->offsetPath('bias', 'outline', -3, true, ['class' => 'helpline']);
+        $p->offsetPath('bias', 'outline', 3, true, ['class' => 'helpline']);
 
         // Snap button
         $p->newSnippet(1, 'snap-male', 'snapAnchor');
